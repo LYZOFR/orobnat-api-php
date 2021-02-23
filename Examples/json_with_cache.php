@@ -12,7 +12,7 @@ if (array_key_exists('idRegion', $_GET) === false
         || filter_var($_GET['communeDepartement'], FILTER_SANITIZE_STRING) == false
         || filter_var($_GET['reseau'], FILTER_SANITIZE_STRING) == false
 ) {
-    echo "bad guys";
+    echo "bad boy ! forget some parameters ?";
     die();
 }
 
