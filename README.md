@@ -1,6 +1,6 @@
 # Orobnat-API-PHP
-This is an unofficial API to get data from https://orobnat.sante.gouv.fr , which collected all water quality data from France. 
-Below description in French, but PR and Issue are welcome in al languages. 
+This is an unofficial API to get data from https://orobnat.sante.gouv.fr ( orobnat ), which collects all water quality data from France. 
+Below description in French, but PR and Issues are welcome in all languages. 
 
 
 ## Description 
