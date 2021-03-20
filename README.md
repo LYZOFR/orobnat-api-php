@@ -8,9 +8,10 @@ Le site https://orobnat.sante.gouv.fr fourni les résultats du contrôle sanitai
 
 
 ## Récupérer les paramètres
-Depuis votre navigateur préféré, vous pourrez récupérer les paramètres. Ci-dessous un exemple sous Firefox : 
+Depuis votre navigateur préféré, vous pourrez récupérer les paramètres. Ci-dessous un exemple sous Firefox ( ![lien vers la vidéo](https://github.com/jim005/orobnat-api-php/raw/master/Docs/orobnat-api-php-tuto-parameters.mp4)
+ ) : 
 ![](Docs/orobnat-api-php-tuto-parameters.gif)
-![Lien vers la vidéo](https://github.com/jim005/orobnat-api-php/raw/master/Docs/orobnat-api-php-tuto-parameters.mp4)
+
 
 ## Usage
  
