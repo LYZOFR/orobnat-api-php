@@ -8,8 +8,7 @@ Le site https://orobnat.sante.gouv.fr fourni les résultats du contrôle sanitai
 
 
 ## Récupérer les paramètres
-(explication à fournir pour ouvrir l'Inpecteur et récupérer la réquête)  
-
+![Vidéo de tutoriel pour récupérer les parmètres depuis un navigateur Firefox](https://github.com/jim005/orobnat-api-php/raw/master/Docs/orobnat-api-php-tuto-parameters.mp4)
 
 ## Usage
  
