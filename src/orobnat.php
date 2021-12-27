@@ -46,6 +46,8 @@ class orobnat
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_VERBOSE, 1);
         curl_setopt($ch, CURLOPT_HEADER, 1);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 
         $result = curl_exec($ch);
         if (curl_errno($ch)) {
@@ -82,6 +84,8 @@ class orobnat
                 )
             )
         ));
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         $headers = array();
         $cookies = $this->_requestCookies();
         $headers[] = "Cookie: " . $cookies[0][1] . "; " . $cookies[1][1];
